@@ -4,9 +4,19 @@
 
 `rake` |> runs default task, which is set to run tests via `Rakefile`
 
-#### Documentation
+#### Details
 
-##### Running tests
+- the `plymouth` gem will automatically open a pry session upon test failures, this can be disabled by commenting its requirement out via the `/lib/test_helper.rb` file
+- the `turn` gem can be used to switch between different types of test output formatting, this can be configured via the `lib/test_helper.rb` file
+
+#### Documentation and Research
+
+##### Research
+
+- [run minitest suite in parallel](https://www.google.com/search?q=run+ruby+test+parallel&oq=run+ruby+test+parallel&aqs=chrome..69i57j0.3926j0j1&sourceid=chrome&ie=UTF-8#q=run+minitest+parallel&spell=1)
+- [run minitest via ci server](https://www.google.com/search?q=run+minitest+ci&oq=run+minitest+ci&aqs=chrome..69i57.3301j0j1&sourceid=chrome&ie=UTF-8) 
+
+##### Running tests (automatically, on command, etc...)
 
 - https://mallibone.wordpress.com/tag/raketesttask/
 
@@ -15,14 +25,22 @@
 - http://ruby.sadi.st/Ruby_Sadist.html (flog, flay, heckle)
 - https://www.ruby-toolbox.com/#Testing
 
-##### Minitest References
+##### Minitest Useage References
 
 - http://mattsears.com/articles/2011/12/10/minitest-quick-reference
 
-##### Minitest Philosophy
+##### Minitest and Test Suite Philosophy
 
 - http://crashruby.com/2013/05/10/running-a-minitest-suite/
 - http://interblah.net/how-minitest-works
+
+##### Minitest Extension Ecosystem
+
+- https://github.com/seattlerb/minitest/blob/master/README.txt#L383
+
+##### Minitest Editor Helpers/Configurations
+
+- https://github.com/sunaku/vim-ruby-minitest
 
 ##### Minitest API
 
