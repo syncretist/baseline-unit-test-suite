@@ -3,7 +3,7 @@ require 'bundler/setup'     # ensures you're loading Gemfile defined gems (http:
 ## Test suite as minitest
 
 gem     'minitest'          # ensures you"re using the gem, and not the built-in MT
-require 'minitest/autorun'  # the easy and explicit way to run all your tests
+require 'minitest/autorun'  # run any specs after the file has been evaluated; 'the easy and explicit way to run all your tests'
 
 ## Configure test suite output formatting
 ### http://blog.rawonrails.com/2012/01/better-minitest-output-with-turn-gem.html
