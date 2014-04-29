@@ -10,6 +10,10 @@
 
 - https://mallibone.wordpress.com/tag/raketesttask/
 
+##### Additional Testing Tools
+
+- http://ruby.sadi.st/Ruby_Sadist.html (flog, flay, heckle)
+
 ##### Minitest References
 
 - http://mattsears.com/articles/2011/12/10/minitest-quick-reference
