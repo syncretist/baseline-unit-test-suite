@@ -1,5 +1,9 @@
 ### Baseline Testsuite
 
+#### Commands
+
+`rake` |> runs default task, which is set to run tests via `Rakefile`
+
 #### Documentation
 
 ##### Running tests
