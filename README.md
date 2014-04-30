@@ -44,6 +44,15 @@
 
 ##### Minitest API
 
+```
+MiniTest::Assertions#methods: 
+  _assertions   assert_empty       assert_includes     assert_nil       assert_respond_to  assert_throws      flunk           pass          refute_in_delta     refute_kind_of   refute_respond_to
+  _assertions=  assert_equal       assert_instance_of  assert_operator  assert_same        capture_io         message         refute        refute_in_epsilon   refute_match     refute_same      
+  assert        assert_in_delta    assert_kind_of      assert_output    assert_send        diff               mu_pp           refute_empty  refute_includes     refute_nil       skip             
+  assert_block  assert_in_epsilon  assert_match        assert_raises    assert_silent      exception_details  mu_pp_for_diff  refute_equal  refute_instance_of  refute_operator
+MiniTest::Unit::TestCase#methods: __name__  io  io?  passed?  run  run_setup_hooks  run_teardown_hooks  setup  teardown
+```
+
 **Unit Test**
 <br>via http://ruby.about.com/od/testdrivendevelopment/ss/Unit-Testing-With-Minitest-More-Assertions.htm
 
