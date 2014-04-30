@@ -18,7 +18,8 @@
 
 ##### Running tests (automatically, on command, etc...)
 
-- https://mallibone.wordpress.com/tag/raketesttask/
+- Using rake: https://mallibone.wordpress.com/tag/raketesttask/
+- Using guard (auto run suite on file changes): https://github.com/guard/guard-minitest
 
 ##### Additional Testing Tools
 
