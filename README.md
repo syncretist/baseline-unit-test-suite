@@ -6,8 +6,8 @@
 
 #### Details
 
-- the `plymouth` gem will automatically open a pry session upon test failures, this can be disabled by commenting its requirement out via the `/lib/test_helper.rb` file
-- the `turn` gem can be used to switch between different types of test output formatting, this can be configured via the `lib/test_helper.rb` file
+- the `plymouth` gem will automatically open a pry session upon test failures, this can be disabled by commenting its requirement out via the `/test/lib/test_helper.rb` file
+- the `turn` gem can be used to switch between different types of test output formatting, this can be configured via the `/test/lib/test_helper.rb` file
 
 #### Documentation and Research
 
