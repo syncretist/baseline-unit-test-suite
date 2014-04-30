@@ -55,6 +55,7 @@ MiniTest::Unit::TestCase#methods: __name__  io  io?  passed?  run  run_setup_hoo
 
 **Unit Test**
 <br>via http://ruby.about.com/od/testdrivendevelopment/ss/Unit-Testing-With-Minitest-More-Assertions.htm
+<br>NOTE: ```refute``` can replace ```assert``` in the examples below for negative cases
 
 *assert(p)* 
 - Asserts that p is true. The basic assertion, see the previous article.
