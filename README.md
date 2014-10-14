@@ -4,6 +4,11 @@
 
 `rake` |> runs default task, which is set to run tests via `Rakefile`
 
+#### Notes
+
+- each test file must have '*_test' as its name
+- each test method must have 'test_*' as its name
+
 #### Details
 
 - the `plymouth` gem will automatically open a pry session upon test failures, this can be disabled by commenting its requirement out via the `/test/lib/test_helper.rb` file
